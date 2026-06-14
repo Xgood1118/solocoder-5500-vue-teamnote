@@ -1,4 +1,4 @@
-const { store } = require('./jsonStore');
+const { store } = require('../storage/jsonStore');
 const { generateId, now } = require('../utils/common');
 const EventEmitter = require('events');
 
